@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p5.js example</title>
+    <style> body {padding: 0; margin: 0;} </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="./p5/p5.js"></script>
+    <script src="./p5/addons/p5.dom.js"></script>
+  </head>
+  <body>
+    <div class="slidecontainer">
+      <span class="slider_labels">
+        <label for="hueVal">Hue: </label><input type="range" min="1" max="100" value="50" class="slider" id="hueVal">
+        <label for="magnetism">Magnetism: </label><input type="range" min="-100" max="100" value="10" class="slider" id="magnetism">
+        <label for="acceleration">Acceleration: </label><input type="range" min="20" max="100" value="95" class="slider" id="acceleration">
+      </span>
+    </div>
+    <script src="attractor.js"></script>
+  </body>
+</html>
